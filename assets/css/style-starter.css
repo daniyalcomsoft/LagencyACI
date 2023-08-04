@@ -2328,7 +2328,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #000000;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -2374,13 +2374,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Oxygen";
+  font-family: "Oxygen" !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  overflow-x: hidden;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -10399,7 +10401,8 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: 'Oxygen'; }
+  font-family: 'Oxygen';
+}
 
 * {
   box-sizing: border-box; }
@@ -14111,7 +14114,8 @@ h4.sub-title {
 .presentation-top {
   width: 100%;
   position: relative;
-  margin-top: 80px !important;
+  /* 80 to   */
+  margin-top: 0px !important;
   padding: 150px 0 0 0 !important;
   float: left;
 }
@@ -14521,6 +14525,58 @@ a:link {
   box-sizing: border-box; 
 }
 
+@media (min-width: 1700px) and (max-width: 1750px) {
+  .thumbnail img {
+    padding: 0 !important; 
+    height: 300px !important;
+    width: 427px !important;
+  }
+  .thumbnail {
+    margin: 0 !important;
+  }
+  .spliting{
+    padding-left: 19px !important;
+    margin-bottom: 0px !important;
+  }
+  .spit-botom{
+    padding-right: 48px !important;
+  }
+}
+.spit-botom{
+  width: 40%;
+  float: right;
+  padding-right: 25px;
+  /* margin-top: -28px !important; */
+
+}
+
+@media (min-width: 1750px) and (max-width: 1800px) {
+  .thumbnail img {
+    padding: 0 !important; 
+    height: 300px !important;
+    width: 427px !important;
+  }
+  .thumbnail {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 1728px) and (min-height: 1117px) {
+  
+}
+
+.thumbnail img {
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s;
+
+}
+
+.thumbnail img:hover {
+  transform: scale(1.1); 
+  filter: brightness(80%); 
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
 .image-viewer {
   display: none;
   position: fixed;
@@ -14546,30 +14602,14 @@ a:link {
   margin-bottom: 20px;
 }
 
-/* .close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-}
-
-.nav-btn {
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
-  margin: 0 10px;
-} */
-
 .viewer-inner .nav-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 75px; /* Adjust as needed */
-  color: white; /* Set the color of the buttons */
+  font-size: 75px; 
+  color: white; 
   cursor: pointer;
-  padding: 10px; /* Add padding to the buttons for easier clicking */
+  padding: 10px; 
 }
 
 .prev-btn {
@@ -14580,7 +14620,6 @@ a:link {
   right: -200px;
 }
 
-/* Add padding to the close-btn */
 .viewer-inner .close-btn {
   position: absolute;
   top: 0;
@@ -14598,12 +14637,42 @@ a:link {
 }
 
 .thumbnail img{
-  height: 300px;
+  height: 250px;
   width: 400px;
 }
 
 /* overlay  */
 
+
+
+
+/* end slider  */
+
+/* Your existing CSS styles go here */
+
+/* .slider-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  width: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+} */
+
+
+/* Add other styling as needed */
+
+
+/* end slider  */
 
 /* overlay end here  */
 

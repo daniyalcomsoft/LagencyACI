@@ -33,28 +33,26 @@ button::-moz-focus-inner {
 
 /* fullscreen div */
 
-/* .image {
+.image {
     display: block;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-} */
+}
 
 /* button  */
 
-/* #left, #right {
-  position: absolute;
-    top: 18%;
+#left, #right {
+    position: absolute;
+    top: 50%;
     font-size: 4rem;
     color: #adb5bd;
     opacity: 0.3;
-    left: 72%;
-    margin-left: 280px;
 }
 
 #right {
-    right: 15;
-} */
+    right: 0;
+}
 
 /* button hover */
 
@@ -838,14 +836,6 @@ button::-moz-focus-inner {
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <div class="page-splitter-40 spliting">
-        <div class="presentation-real-title">
-          <h4 class="real-title">NOS REALISATIONS</h4>
-          <h6 class="real-subtitle">Conscients des enjeux environnementaux</h6>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-12" style="padding-right: 50px;">
       <div class="wrapper">
         <div class="image">
             <div class="slide">
@@ -1000,25 +990,13 @@ button::-moz-focus-inner {
           </div>
         </div>
     </div>
-    <!-- <div>
+    <div>
         <button id="left"><i class="fa fa-arrow-left" style="background: red; color: black;"></i></button>
         <button id="right"><i class="fa fa-arrow-right" style="background: red; color: black;"></i></button>
-    </div> -->
     </div>
-    <div class="page-splitter-60 hide-mobile">&nbsp;</div>
-    <div class="page-splitter-40 justify-content-right spit-botom">
-      <div class="presentation-real-title2" id="left">
-        <img src="assets/images/icon_arrow.svg" class="icon-real2" />
-        <h6 class="real-subtitle">Précédent</h6>
-      </div>
-      <div class="presentation-real-title3" id="right">
-        <h6 class="real-subtitle">Suivant</h6>
-        <img src="assets/images/icon_arrow.svg" class="icon-real" />
-      </div>
     </div>
   </div>
 </div>
-
 
 <script>
   var index = document.getElementsByClassName('image');
