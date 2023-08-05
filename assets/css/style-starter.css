@@ -15043,3 +15043,899 @@ h5 {
 }
 
 /* agency end here  */
+
+
+/* contact  */
+
+#banner-contact {
+  width: 100%;
+  min-height: 250px;
+  padding-top: 0;
+  margin-top: 85px;
+  position: relative;
+  /* z-index: 100; */
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  background: url(../images/ban_contact.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px){
+#banner-contact {
+    margin-top: 60px !important;
+    padding: 150px 0 100px 0 !important;
+}
+}
+
+@media screen and (min-width: 1300px){
+#banner-contact {
+    margin-top: 85px;
+    padding: 150px 0 100px 0;
+}
+}
+
+@media screen and (min-width: 1600px){
+.page-container-large {
+    width: 1400px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 1300px){
+.page-container-large {
+    width: 1250px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.page-container-large {
+    width: 90%;
+    margin: auto;
+}
+}
+.banner-page-set {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 1s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+@media screen and (min-width: 1600px){
+.banner-home-text-lil {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-lil {
+    font-size: 30px;
+    line-height: 35px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-lil {
+    font-size: 25px;
+    line-height: 30px;
+}
+}
+.banner-home-text-lil {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 40px;
+  color: #FFF;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-big {
+    font-size: 65px;
+    line-height: 80px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-big {
+    font-size: 60px;
+    line-height: 75px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-big {
+    font-size: 50px;
+    line-height: 70px;
+}
+}
+.banner-home-text-big {
+  font-family: "Oxygen";
+  font-size: 65px;
+  line-height: 80px;
+  color: #FFF;
+  font-weight: bold;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-medium {
+    font-size: 35px;
+    line-height: 37px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-medium {
+    font-size: 30px;
+    line-height: 32px;
+}
+}
+
+@media screen and (min-width: 800px){
+.banner-home-text-medium {
+    font-size: 30px;
+    line-height: 37px;
+}
+}
+
+.banner-home-text-medium {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 37px;
+  color: #FFF;
+}
+
+.Line {
+  width: 100%;
+  height: 1px;
+  background-color: #DDDDDD;
+}
+@media screen and (min-width: 1300px){
+.banner-contact-st1 {
+    width: 45%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 800px){
+.banner-contact-st1 {
+    width: 45%;
+    float: left;
+}
+}
+.delay-1 {
+  animation-delay: .1s;
+}
+
+.banner-contact-st1 {
+  width: 49%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.content-form-title {
+  width: 86%;
+  margin: 0 auto;
+  padding: 20px 7% 10px 7%;
+  margin-top: 5px;
+  background-color: #F7F7F7;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Oxygen";
+  font-size: 24px;
+  line-height: 35px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 1300px){
+.text4 {
+    font-size: 14px;
+    line-height: 19px;
+    /* margin: 10px 0; */
+}
+}
+@media screen and (min-width: 800px){
+.text4 {
+    font-size: 13px;
+    line-height: 17px;
+    /* margin: 10px 0; */
+}
+}
+.text4 {
+  font-family: "Oxygen";
+  color: #555;
+  margin: 10px 0;
+}
+.content-form_ {
+  width: 86% !important;
+  padding: 26px 10% 50px 10%;
+  background-color: rgba(255,255,255,0.95) !important;
+}
+.content-form, .content-form_ {
+  width: 86% !important;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 26px 8% 50px 8%;
+  background-color: #FFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 1300px){
+.title2 {
+    font-size: 24px;
+    line-height: 30px;
+    /* margin: 0 0 15px 0; */
+}
+}
+
+@media screen and (min-width: 800px){
+.title2 {
+    font-size: 20px;
+    line-height: 26px;
+    /* margin: 0 0 15px 0; */
+}
+}
+.title2 {
+  font-family: "Oxygen";
+  color: #DF0033;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
+@media screen and (min-width: 1300px){
+.title2 {
+    font-size: 24px;
+    line-height: 30px;
+    /* margin: 0 0 15px 0; */
+}
+}
+@media screen and (min-width: 800px){
+.title2 {
+    font-size: 20px;
+    line-height: 26px;
+    /* margin: 0 0 15px 0; */
+}
+}
+.color4 {
+  color: #111;
+}
+.title2 {
+  font-family: "Oxygen";
+  /* color: #DF0033; */
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  font-style: italic;
+}
+
+
+@media screen and (min-width: 1300px){
+.text1, .text1_ {
+    font-size: 19px;
+    line-height: 28px;
+    /* margin: 10px 0; */
+}
+}
+
+@media screen and (min-width: 800px){
+.text1, .text1_ {
+    font-size: 17px;
+    line-height: 25px;
+    /* margin: 10px 0; */
+}
+}
+.text1, .text1_ {
+  font-family: "Oxygen";
+  color: #555;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1300px){
+.text1, .text1_ {
+    font-size: 19px;
+    line-height: 28px;
+    /* margin: 10px 0; */
+}
+}
+
+@media screen and (min-width: 800px){
+.text1, .text1_ {
+    font-size: 17px;
+    line-height: 25px;
+    /* margin: 10px 0; */
+}
+}
+.icon-contact {
+  width: 22px;
+  height: 22px;
+  margin: 2px 5px 0 0;
+  background: url(../images/icon-contact.svg);
+  background-size: 22px 22px;
+  float: right;
+}
+
+.icon-mail {
+  width: 30px;
+  height: 30px;
+  margin: 3px 15px 0 0;
+  transition: 0.3s;
+  background: url(../images/icon-mail.svg);
+  background-size: 30px 30px;
+  float: left;
+}
+
+.icon-phone-call {
+  width: 30px;
+  height: 30px;
+  margin: 3px 15px 0 0;
+  transition: 0.2s;
+  background: url(../images/icon-phone-call.svg);
+  background-size: 30px 30px;
+  float: left;
+}
+.AlignRight {
+  float: right!important;
+}
+.icon-phone-call-white1 {
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon-phone-call-white1.svg);
+  background-size: 40px 40px;
+}
+
+@media screen and (min-width: 1300px){
+.banner-contact-st2 {
+    width: 45%;
+    float: right;
+}
+}
+@media screen and (min-width: 800px){
+.banner-contact-st2 {
+    width: 45%;
+    float: right;
+}
+}
+.delay-2 {
+  animation-delay: .3s;
+}
+.banner-contact-st2 {
+  width: 49%;
+  float: right;
+}
+
+@media screen and (min-width: 1300px){
+.text4 {
+    font-size: 14px;
+    line-height: 19px;
+    /* margin: 10px 0; */
+}
+}
+
+@media screen and (min-width: 800px){
+.text4 {
+    font-size: 13px;
+    line-height: 17px;
+    /* margin: 10px 0; */
+}
+}
+.text4 {
+  font-family: "PTSans";
+  color: #555;
+  margin: 10px 0;
+  font-weight: normal !important;
+}
+.color2 {
+  color: #FF0940;
+}
+.content-form_ {
+  width: 80%;
+  padding: 26px 10% 50px 10%;
+  background-color: rgba(255,255,255,0.95);
+}
+.content-form, .content-form_ {
+  width: 84%;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 26px 8% 50px 8%;
+  background-color: #FFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+}
+.form {
+  margin: 0 0 0 0 !important;
+}
+.formlabel-full {
+  width: 100%;
+  margin: 5px 0;
+  float: left;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 30px;
+  color: #999;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.formfield1 {
+  width: 95%;
+  padding: 15px 5%;
+  margin: 7px 0px 0 0;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  border: solid 2px #CCC;
+  border-radius: 5px;
+}
+.button5 {
+  width: 95%;
+  padding: 14px 10% 16px 10%;
+  margin: 30px 0 0 0;
+  background-color: #FFD24C;
+  border: solid 1px #FFD24C;
+  border-radius: 26px;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 16px;
+  color: #111;
+  font-weight: normal;
+}
+
+.button5:hover {
+  background-color: #FFF;
+  border: solid 1px #FFD24C;
+  cursor: pointer;
+}
+
+
+
+
+/* end contact  */
+
+
+/* projects  */
+
+#banner-promotions {
+  width: 100%;
+  min-height: 300px;
+  margin: 60px 0 0px 0;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../images/background_promotions1.jpg);
+  background-size: cover;
+  background-position: top center;
+  color: #333;
+}
+@media screen and (min-width: 1600px){
+.page-container-large {
+    width: 1400px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 1300px){
+.page-container-large {
+    width: 1250px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.page-container-large {
+    width: 90%;
+    margin: auto;
+}
+}
+.banner-page-set {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 1600px){
+.banner-home-st1 {
+    width: 100%;
+    margin: 185px 0 135px 0;
+    float: left;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-st1 {
+    width: 100%;
+    margin: 155px 0 55px 0;
+    float: left;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-st1 {
+    width: 100%;
+    margin: 140px 0 45px 0;
+    float: left;
+}
+}
+.banner-home-st1 {
+  width: 100%;
+  margin: 185px 0 135px 0;
+  float: left;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-big {
+    font-size: 65px;
+    line-height: 80px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-big {
+    font-size: 60px;
+    line-height: 75px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-big {
+    font-size: 50px;
+    line-height: 70px;
+}
+}
+.banner-home-text-big {
+  font-family: "Oxygen";
+  font-size: 65px;
+  line-height: 80px;
+  color: #FFF;
+  font-weight: bolder;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-lil {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-lil {
+    font-size: 30px;
+    line-height: 35px;
+}
+}
+
+@media screen and (min-width: 800px){
+.banner-home-text-lil {
+    font-size: 25px;
+    line-height: 30px;
+}
+}
+.banner-home-text-lil {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 40px;
+  color: #FFF;
+  font-weight: normal !important;
+}
+@media screen and (min-width: 800px){
+.hide-mobile {
+    display: block;
+}
+}
+.banner-home-st2 {
+  width: 100%;
+  float: left;
+}
+.little-block-white {
+  height: 50px;
+  padding: 8px 30px 10px 20px;
+  float: left;
+  background-color: #FFF;
+  border-radius: 15px;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 17px;
+  color: #333;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.icon-mail {
+  width: 30px;
+  height: 30px;
+  margin: 3px 15px 0 0;
+  transition: 0.3s;
+  background: url(../images/icon-mail.svg);
+  background-size: 30px 30px;
+  float: left;
+}
+.AlignLeft {
+  float: left;
+}
+.little-block-text {
+  font-family: "Oxygen";
+  font-size: 14px;
+  line-height: 17px;
+}
+a.Linkbreak {
+  text-decoration: none;
+  line-height: inherit;
+}
+.little-block-black {
+  height: 50px;
+  padding: 8px 30px 10px 20px;
+  margin-left: 20px;
+  float: right;
+  background-color: #000;
+  border-radius: 15px;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 17px;
+  color: #FFF;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+.icon-phone-call {
+  width: 30px;
+  height: 30px;
+  margin: 3px 15px 0 0;
+  transition: 0.2s;
+  background: url(../images/icon-phone-call.svg);
+  background-size: 30px 30px;
+  float: left;
+}
+.little-block-text {
+  font-family: "Oxygen";
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (min-width: 800px){
+#banner-promotions-projet1 {
+    background: url(../images/projet_immo_villa_f5_duplex1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+}
+#banner-promotions-projet1 {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 0 0 0;
+  padding: 0 0 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #333;
+}
+@media screen and (min-width: 800px){
+.show-mobile {
+    display: none;
+}
+}
+@media screen and (min-width: 1600px){
+.page-container-medium {
+    width: 1200px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 1300px){
+.page-container-medium {
+    width: 1100px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 800px){
+.page-container-medium {
+    width: 90%;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.section-promotions-set {
+    width: 50%;
+    float: left;
+}
+}
+.page-fill {
+  padding: 0 130px;
+}
+@media screen and (min-width: 800px){
+.hide-mobile {
+    display: block;
+}
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-big1 {
+    font-size: 55px;
+    line-height: 65px;
+}
+}
+
+@media screen and (min-width: 1300px){
+.banner-home-text-big1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-big1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+}
+.banner-home-text-big1 {
+    font-family: "Oxygen"f;
+    font-size: 55px;
+    line-height: 65px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1300px){
+.title3 {
+    font-size: 34px;
+    line-height: 40px;
+    /* margin: 0 0 15px 0; */
+}
+}
+@media screen and (min-width: 800px){
+.title3 {
+    font-size: 30px;
+    line-height: 36px;
+    /* margin: 0 0 15px 0; */
+}
+}
+.title3 {
+  font-family: "Oxygen";
+  color: #FF0940;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+.button, .button_ {
+  width: 100%;
+  padding: 21px 0 20px 0;
+  border-top: solid 1px #DDD;
+  font-family: "Oxygen";
+  font-size: 20px;
+  line-height: 26px;
+  color: #222;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.button2, .button2_ {
+  padding: 14px 30px 16px 30px;
+  margin: 20px 5px 0 5px;
+  background-color: #FF0940;
+  border-radius: 26px;
+  float: right;
+  font-family: "Oxygen";
+  font-size: 17px;
+  line-height: 18px;
+  color: #FFF;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  background: url(../images/right-arrow.svg);
+  background-size: 20px 20px;
+  float: left;
+}
+
+@media screen and (min-width: 800px){
+#banner-promotions-projet2 {
+    background: url(../images/projet_immo_appartements_f4_haut_standing1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+}
+#banner-promotions-projet2 {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 0 0 0;
+  padding: 0 0 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #333;
+}
+
+@media screen and (min-width: 1600px){
+.page-container-medium {
+    width: 1200px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 1300px){
+.page-container-medium {
+    width: 1100px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.page-container-medium {
+    width: 90%;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.section-promotions-set {
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 1600px){
+.banner-home-text-big1 {
+    font-size: 55px;
+    line-height: 65px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-big1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-big1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+}
+.banner-home-text-big1 {
+    font-family: "Oxygen";
+    font-size: 55px;
+    line-height: 65px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1300px){
+.title3 {
+    font-size: 34px;
+    line-height: 40px;
+    /* margin: 0 0 15px 0; */
+}
+}
+@media screen and (min-width: 800px){
+.title3 {
+    font-size: 30px;
+    line-height: 36px;
+    /* margin: 0 0 15px 0; */
+}
+}
+
+.title3 {
+  font-family: "Oxygen";
+  color: #FF0940;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  background: url(../images/right-arrow.svg);
+  background-size: 20px 20px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end projects  */
