@@ -15321,21 +15321,7 @@ h5 {
 }
 
 
-@media screen and (min-width: 1300px){
-.text1, .text1_ {
-    font-size: 19px;
-    line-height: 28px;
-    /* margin: 10px 0; */
-}
-}
 
-@media screen and (min-width: 800px){
-.text1, .text1_ {
-    font-size: 17px;
-    line-height: 25px;
-    /* margin: 10px 0; */
-}
-}
 .text1, .text1_ {
   font-family: "Oxygen";
   color: #555;
@@ -15353,7 +15339,7 @@ h5 {
 
 @media screen and (min-width: 800px){
 .text1, .text1_ {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 25px;
     /* margin: 10px 0; */
 }
@@ -15470,6 +15456,16 @@ h5 {
 }
 .formfield1 {
   width: 95%;
+  padding: 15px 5%;
+  margin: 7px 0px 0 0;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  border: solid 2px #CCC;
+  border-radius: 5px;
+}
+.formfield{
+  width: 94%;
   padding: 15px 5%;
   margin: 7px 0px 0 0;
   font-size: 14px;
@@ -15928,14 +15924,984 @@ a.Linkbreak {
   float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* end projects  */
+
+
+
+/* lotissement  */
+
+@media screen and (min-width: 1600px){
+#banner-lotissement1 {
+    margin-top: 85px;
+    padding-top: 150px;
+}
+}
+
+@media screen and (min-width: 1300px){
+#banner-lotissement1 {
+    margin-top: 85px;
+    padding-top: 150px;
+}
+}
+@media screen and (min-width: 800px){
+#banner-lotissement1 {
+    margin-top: 60px;
+    padding-top: 150px;
+    background-position: top center;
+    background-size: cover;
+}
+}
+
+#banner-lotissement1 {
+  width: 100%;
+  min-height: 350px;
+  padding: 150px 0 100px 0;
+  margin-top: 85px;
+  margin-bottom: 10px;
+  position: relative;
+  /* z-index: 100; */
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  background: url(../images/ban_lotissement.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media screen and (min-width: 1600px){
+.page-container-large {
+    width: 1400px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 1300px){
+.page-container-large {
+    width: 1250px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.page-container-large {
+    width: 90%;
+    margin: auto;
+}
+}
+.banner-page-set {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 1600px){
+.banner-home-text-lil {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
+
+@media screen and (min-width: 1300px){
+.banner-home-text-lil {
+    font-size: 30px;
+    line-height: 35px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-lil {
+    font-size: 25px;
+    line-height: 30px;
+}
+}
+.banner-home-text-lil {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 40px;
+  color: #FFF;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-medium {
+    font-size: 35px;
+    line-height: 37px;
+}
+}
+@media screen and (min-width: 1300px){
+.banner-home-text-medium {
+    font-size: 30px;
+    line-height: 32px;
+}
+}
+@media screen and (min-width: 800px){
+.banner-home-text-medium {
+    font-size: 30px;
+    line-height: 37px;
+}
+}
+.banner-home-text-medium {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 37px;
+  color: #FFF;
+}
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 1s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media screen and (min-width: 1600px){
+.banner-page-sub {
+    width: 40%;
+}
+}
+
+@media screen and (min-width: 1300px){
+.banner-page-sub {
+    width: 40%;
+}
+}
+@media screen and (min-width: 800px){
+.banner-page-sub {
+    width: 40%;
+}
+}
+.delay-1 {
+  animation-delay: .1s;
+}
+.arrow-right-yellow {
+  width: 20px;
+  height: 20px;
+  margin: 10px 0 0 7px;
+  background: url(../images/right-arrow-yellow.svg);
+  background-size: 20px 20px;
+  float: right;
+}
+
+@media screen and (min-width: 1300px){
+.hide-tab-mobile {
+    display: block;
+}
+}
+@media screen and (min-width: 800px){
+.hide-tab-mobile {
+    display: none;
+}
+}
+.button-text {
+    font-family: "Oxygen";
+    font-size: 17px;
+    line-height: 20px;
+    font-style: italic;
+    color: #444;
+}
+@media screen and (min-width: 1300px){
+.card-lotissement-new {
+    width: 31.3%;
+    height: 320px;
+}
+}
+
+@media screen and (min-width: 800px){
+.card-lotissement-new {
+    width: 31.3%;
+    height: 310px;
+}
+}
+.card-lotissement-new {
+  width: 31.3%;
+  height: 320px;
+  float: left;
+  overflow: hidden;
+  margin: 5px 1% 20px 1%;
+  border-radius: 2px;
+  background-color: rgba(255,255,255,0.92);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  color: #666;
+  transition: 0.1s;
+  font-weight: bold;
+}
+.card-lotissement-new:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Apply styles to card-lotissement-text-title when hovering over card-lotissement-new */
+.card-lotissement-new:hover .card-lotissement-text-title {
+  font-weight: bold;
+  transform: scale(1.1);
+  color: #FFC417;
+  transition: 0.2s;
+}
+
+/* Apply zoom effect to card-lotissement-text-caption when hovering over card-lotissement-new */
+.card-lotissement-new:hover .card-lotissement-text-caption {
+  transform: scale(1.1);
+  color: white;
+}
+
+/* Change color of icon-price when hovering over card-lotissement-new */
+.card-lotissement-new:hover .icon-price {
+  color: #ffd24c;
+}
+
+.card-lotissement-new:hover .card-lotissement-text-subtitle{
+  color: white;
+}
+
+/* Change color of 247 Parcelles and 500m2 when hovering over card-lotissement-new */
+.card-lotissement-new:hover .color-white {
+  color: white;
+}
+
+.card-lotissement-fill {
+  padding: 8px;
+}
+@media screen and (min-width: 1300px){
+.card-lotissement-image {
+    height: 200px;
+}
+}
+
+@media screen and (min-width: 1100px){
+.card-lotissement-image {
+    height: 180px;
+}
+}
+@media screen and (min-width: 800px){
+.card-lotissement-image {
+    height: 160px;
+}
+}
+.card-lotissement-image {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+.card-lotissement-text-title {
+  padding: 0 7%;
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 19px;
+  line-height: 26px;
+  color: #333;
+  font-weight: bold;
+  transition: 0.2s;
+  /* text-transform: uppercase; */
+}
+.card-lotissement-text-caption {
+  margin: 10px 7%;
+  padding: 5px 0 3px 0;
+  border-top: solid 1px #DDD;
+  transition: 0.4s;
+}
+.icon-price {
+  width: 25px;
+  height: 25px;
+  margin: 6px 15px 6px 6px;
+  float: left;
+  background: url(../images/icon-price.svg);
+  background-size: 25px 25px;
+}
+strong {
+  font-weight: bold;
+}
+.AlignRight {
+  float: right!important;
+}
+.card-lotissement-text-subtitle {
+  font-family: "Oxygen";
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* end lotissement  */
+
+/* lotissement details  */
+
+@media screen and (min-width: 1600px){
+.page-container-small {
+    width: 1150px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 1300px){
+.page-container-small {
+    width: 1050px;
+    margin: auto;
+}
+}
+@media screen and (min-width: 800px){
+.page-container-small {
+    width: 80% !important;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 1600px){
+.card-ban-full {
+    width: 100%;
+    height: 600px;
+    margin: 110px 0 10px 0;
+}
+}
+@media screen and (min-width: 1300px){
+.card-ban-full {
+    width: 100%;
+    height: 540px;
+    margin: 110px 0 10px 0;
+}
+}
+@media screen and (min-width: 800px){
+.card-ban-full {
+    width: 100%;
+    height: 500px;
+    margin: 85px 0 10px 0;
+}
+}
+
+.card-ban-full {
+  /* width: 100%; */
+  /* height: 540px; */
+  float: left;
+  overflow: hidden;
+  /* margin: 110px 0 10px 0; */
+  border-radius: 4px;
+  background-color: #FFF;
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); */
+}
+
+@media screen and (min-width: 1600px){
+.card-ban-full-image {
+    height: 600px;
+}
+}
+
+@media screen and (min-width: 1300px){
+.card-ban-full-image {
+    height: 540px;
+}
+}
+@media screen and (min-width: 800px){
+.card-ban-full-image {
+    height: 500px;
+}
+}
+.card-ban-full-image {
+  width: 89%;
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
+  /* left: 6.5%; */
+}
+.card-ban-full-image img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.card-ban-image-text {
+  width: 86.5%;
+  height: 40%;
+  position: absolute;
+  float: left;
+  bottom: 0;
+  padding: 3% 7%;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
+  font-family: "Oxygen";
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFF;
+  transition: 0.3s;
+}
+.delay-2 {
+  animation-delay: .3s;
+}
+@media screen and (min-width: 1300px){
+.card-ban-text-title {
+    font-size: 28px;
+    line-height: 32px;
+}
+}
+@media screen and (min-width: 800px){
+.card-ban-text-title {
+    font-size: 24px;
+    line-height: 28px;
+}
+}
+
+.card-ban-text-title {
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFF;
+  font-weight: bold;
+  transition: 0.3s;
+}
+@media screen and (min-width: 1300px){
+.card-ban-text-subtitle {
+    font-size: 19px;
+    line-height: 24px;
+}
+}
+@media screen and (min-width: 800px){
+.card-ban-text-subtitle {
+    font-size: 17px;
+    line-height: 20px;
+}
+}
+.card-ban-text-subtitle {
+  margin: 0 0 10px 0;
+  font-family: "Oxygen";
+  font-size: 19px;
+  line-height: 24px;
+  color: #E0E0E0;
+  font-weight: bold;
+}
+.card-ban-caption {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  background-color: #FFD24D;
+  border-radius: 20px;
+  font-size: 0px;
+  color: #000;
+  transition: 0.2s;
+}
+.color1 {
+  color: #FFD24C;
+}
+@media screen and (min-width: 1300px){
+.page-splitter-ww50 {
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 800px){
+.page-splitter-ww50 {
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 1300px){
+.title4 {
+    font-size: 26px;
+    line-height: 32px;
+    /* margin: 10px 0 15px 0; */
+}
+}
+@media screen and (min-width: 800px){
+.title4 {
+    font-size: 22px;
+    line-height: 28px;
+    /* margin: 10px 0 15px 0; */
+}
+}
+.title4 {
+  font-family: "Oxygen";
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+  /* padding-left: 144px; */
+}
+.a2a_kit, .a2a_menu, .a2a_modal, .a2a_overlay {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  outline: 0;
+}
+.a2a_default_style:not(.a2a_flex_style) a {
+  float: left;
+  line-height: 16px;
+  padding: 0 4px;
+}
+.a2a_default_style .a2a_counter img, .a2a_default_style .a2a_dd, .a2a_default_style .a2a_svg {
+  float: left;
+}
+.a2a_kit a {
+  cursor: pointer;
+  transition: none;
+}
+.a2a_dd {
+  -webkit-user-drag: none;
+}
+.a2a_svg {
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  pointer-events: none;
+  width: 32px;
+}
+.a2a_svg svg {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: none;
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  top: 0;
+  width: auto;
+  height: auto;
+}
+.a2a_label {
+  position: absolute!important;
+  clip-path: polygon(0px 0px,0px 0px,0px 0px);
+  -webkit-clip-path: polygon(0px 0px,0px 0px,0px 0px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+
+.a2a_kit a {
+  cursor: pointer;
+  transition: none;
+}
+.a2a_default_style .a2a_count, .a2a_default_style .a2a_svg, .a2a_floating_style .a2a_svg, .a2a_menu .a2a_svg, .a2a_vertical_style .a2a_count, .a2a_vertical_style .a2a_svg {
+  border-radius: 4px;
+}
+.a2a_kit .a2a_svg {
+  background-repeat: repeat;
+}
+@media screen and (min-width: 1300px){
+.page-splitterE {
+    width: 66%;
+    margin: 0 0;
+    float: left;
+}
+}
+
+@media screen and (min-width: 800px){
+.page-splitterE {
+    /* width: 98%;
+    margin: 0 1%;
+    float: left; */
+}
+}
+.container-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1600px){
+.card-statistique-items2 {
+    font-size: 30px;
+    line-height: 56px;
+}
+}
+@media screen and (min-width: 1300px){
+.card-statistique-items2 {
+    font-size: 26px;
+    line-height: 46px;
+}
+}
+
+
+@media screen and (min-width: 800px){
+.card-statistique-items2 {
+    width: 27.2%;
+    margin: 0 0 10px 0;
+    padding: 0 3%;
+    font-size: 26px;
+    line-height: 46px;
+    border-right: solid 1px #DDDDDD;
+}
+}
+.card-statistique-items2 {
+  width: 30.2%;
+  margin: 0 0 10px 0;
+  padding: 0 3%;
+  border-right: solid 1px #DDDDDD;
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 30px;
+  line-height: 56px;
+  color: #000;
+  font-weight: bolder;
+}
+.card-statistique-items-text2 {
+  font-family: "Oxygen";
+  font-size: 20px;
+  line-height: 22px;
+  color: #666;
+}
+
+
+
+
+@media screen and (min-width: 1600px){
+.card-side {
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    float: none;
+}
+}
+@media screen and (min-width: 1300px){
+.card-side {
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    float: none;
+}
+}
+
+@media screen and (min-width: 800px){
+.card-side {
+    width: 48%;
+    height: 210px;
+    margin: 0 1%;
+    float: left;
+}
+}
+.card-side {
+  width: 100%;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+  border-radius: 4px;
+  background-color: #FFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 1600px){
+.card-side-image {
+    height: 180px;
+}
+}
+@media screen and (min-width: 1300px){
+.card-side-image {
+    height: 180px;
+}
+}
+@media screen and (min-width: 800px){
+.card-side-image {
+    height: 210px;
+}
+}
+.card-side-image {
+  height: 200px;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+.card-side-image-text {
+  width: 86.5%;
+  height: 40%;
+  position: absolute;
+  float: left;
+  bottom: 0;
+  padding: 4% 7%;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
+  font-family: "Oxygen";
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFF;
+  transition: 0.3s;
+}
+.icon-play {
+  width: 26px;
+  height: 26px;
+  background: url(../images/icon-play.svg);
+  background-size: 26px 26px;
+}
+.card-side-text-title {
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFF;
+  font-weight: normal;
+  transition: 0.3s;
+}
+.card-lotissement-fill {
+  padding: 8px;
+}
+@media screen and (min-width: 1300px){
+.text2 {
+    font-size: 20px;
+    line-height: 28px;
+    /* margin: 10px 0; */
+}
+}
+
+@media screen and (min-width: 800px){
+.text2 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    /* margin: 10px 0; */
+}
+}
+.text2 {
+  font-family: "Oxygen";
+  /* color: #FF083F; */
+  margin: 10px 0;
+}
+
+
+@media screen and (min-width: 1300px){
+.page-splitterF {
+    width: 31%;
+    margin: 0;
+    margin-left: 3%;
+    float: left;
+}
+}
+@media screen and (min-width: 800px){
+.page-splitterF {
+    /* width: 98%; */
+    margin: 0 1%;
+    float: left;
+}
+}
+
+.button3 {
+  width: 100%;
+  padding: 10px 10% 16px 10%;
+  margin: 30px 0 0 0;
+  background-color: #FF0940;
+  border-radius: 26px;
+  border: none;
+  font-family: "Oxygen";
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.authico{
+  padding-right: 25px;
+  font-size: 27px;
+}
+
+
+.section-title1 {
+  font-family: "Oxygen";
+  color: #333;
+  width: 98%;
+  margin: 10px 1% 0 1%;
+  font-weight: bold;
+}
+
+.section-title1 {
+  font-family: "Oxygen";
+  color: #333;
+  width: 98%;
+  margin: 10px 1% 0 1%;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1300px){
+.card-parcelle {
+    width: 31.3%;
+    height: 480px;
+    margin: 5px 1% 20px 1%;
+}
+}
+.card-parcelle {
+  width: 31.3%;
+  height: 490px;
+  float: left;
+  overflow: hidden;
+  margin: 5px 1% 20px 1%;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  color: #666;
+  transition: 0.2s;
+}
+.card-parcelle-fill {
+  padding: 8px;
+  position: relative;
+}
+@media screen and (min-width: 1300px){
+.card-parcelle-image {
+    height: 200px;
+}
+}
+.card-parcelle-image {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+
+.card-parcelle-text-title {
+  padding: 0 7%;
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 19px;
+  line-height: 26px;
+  color: #333;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+.card-parcelle-text-caption2 {
+  width: 86%;
+  position: absolute;
+  margin: 10px 7% 0 7%;
+  padding: 15px 0 5px 0;
+  line-height: 36px;
+  border-top: solid 2px #DF0033;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 0.4s;
+}
+.card-parcelle-text-subtitle1 {
+  font-family: "Oxygen";
+  font-size: 21px;
+  line-height: 30px;
+  color: #DF0033;
+  font-weight: bold;
+}
+/* .card-parcelle-text-subtitle1 {
+  font-family: "Oxygen";
+  font-size: 21px;
+  line-height: 18px;
+  color: #DF0033;
+  font-weight: bold;
+} */
+.icon-n-red {
+  width: 23px;
+  height: 23px;
+  margin: 1px 15px 6px 1px;
+  float: left;
+  background: url(../images/icon-n-red.svg);
+  background-size: 23px 23px;
+}
+.icon-metre-red {
+  width: 23px;
+  height: 23px;
+  margin: 5px 15px 6px 0px;
+  float: left;
+  background: url(../images/icon-metre-red.svg);
+  background-size: 23px 23px;
+}
+
+.card-parcelle-text-des {
+  margin: 7px 7% 10px 7%;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+  border-bottom: solid 1px #DDD;
+  transition: 0.4s;
+}
+
+.card-parcelle-text-caption {
+  width: 86%;
+  float: left;
+  margin: 0 7% 0 7%;
+  padding: 0 0 5px 0;
+  border-bottom: solid 1px #DDD;
+  transition: 0.4s;
+}
+.icon-price-red {
+  width: 25px;
+  height: 25px;
+  margin: 6px 15px 6px 6px;
+  float: left;
+  background: url(../images/icon-price-red.svg);
+  background-size: 25px 25px;
+}
+
+.card-parcelle-text-subtitle {
+  font-family: "Oxygen";
+  font-size: 18px;
+  line-height: 18px;
+  color: #DF0033;
+  font-weight: bold;
+}
+.card-parcelle-text-caption1 {
+  width: 86%;
+  float: left;
+  margin: 7px 7% 10px 7%;
+  transition: 0.5s;
+}
+.icon-n {
+  width: 25px;
+  height: 25px;
+  margin: 0px 15px 6px 6px;
+  float: left;
+  background: url(../images/icon-n.svg);
+  background-size: 25px 25px;
+}
+.icon-metre {
+  width: 25px;
+  height: 25px;
+  margin: 6px 15px 6px 6px;
+  float: left;
+  background: url(../images/icon-metre.svg);
+  background-size: 25px 25px;
+}
+strong {
+  font-weight: bold;
+}
+
+.card-lotissement:hover, .card-lotissement-third:hover, .card-parcelle:hover, .card-parcelle-third:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+.card-parcelle:hover > div .card-parcelle-text-caption2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.4s;
+}
+.card-parcelle:hover > div .card-parcelle-text-caption {
+  transform: translateY(100px) !important;
+  opacity: 0;
+  transition: 0.3s;
+  
+}
+
+/* .card-lotissement:hover .card-parcelle-text-des .card-parcelle-text-caption .icon-price-red .card-parcelle-text-subtitle .card-parcelle-text-caption1{
+  display: none !important;
+} */
+
+.card-parcelle:hover .card-parcelle-text-des,
+.card-parcelle:hover .card-parcelle-text-caption,
+.card-parcelle:hover .icon-price-red,
+.card-parcelle:hover .card-parcelle-text-subtitle,
+.card-parcelle:hover .card-parcelle-text-caption1 {
+  display: none !important;
+}
+
+.icon-price-red1 {
+  width: 23px;
+  height: 23px;
+  margin: 3px 15px 6px 0px;
+  float: left;
+  background: url(../images/icon-price-red.svg);
+  background-size: 23px 23px;
+}
+
+
+/* lotissement detials end here  */
