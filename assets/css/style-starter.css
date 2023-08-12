@@ -15292,23 +15292,10 @@ h5 {
 .title2 {
   font-family: "Oxygen";
   color: #DF0033;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0 0 15px 0;
 }
-@media screen and (min-width: 1300px){
-.title2 {
-    font-size: 24px;
-    line-height: 30px;
-    /* margin: 0 0 15px 0; */
-}
-}
-@media screen and (min-width: 800px){
-.title2 {
-    font-size: 20px;
-    line-height: 26px;
-    /* margin: 0 0 15px 0; */
-}
-}
+
 .color4 {
   color: #111;
 }
@@ -15317,7 +15304,7 @@ h5 {
   /* color: #DF0033; */
   font-weight: bold;
   margin: 0 0 15px 0;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 
@@ -15430,15 +15417,6 @@ h5 {
   width: 80%;
   padding: 26px 10% 50px 10%;
   background-color: rgba(255,255,255,0.95);
-}
-.content-form, .content-form_ {
-  width: 84%;
-  min-height: 100px;
-  margin: 0 auto;
-  padding: 26px 8% 50px 8%;
-  background-color: #FFF;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
 }
 .form {
   margin: 0 0 0 0 !important;
@@ -16430,11 +16408,7 @@ strong {
   touch-action: manipulation;
   outline: 0;
 }
-.a2a_default_style:not(.a2a_flex_style) a {
-  float: left;
-  line-height: 16px;
-  padding: 0 4px;
-}
+
 .a2a_default_style .a2a_counter img, .a2a_default_style .a2a_dd, .a2a_default_style .a2a_svg {
   float: left;
 }
@@ -16563,19 +16537,19 @@ strong {
 }
 @media screen and (min-width: 1300px){
 .card-side {
-    width: 100%;
+    /* width: 100%;
     height: 180px;
     margin: 0;
-    float: none;
+    float: none; */
 }
 }
 
 @media screen and (min-width: 800px){
 .card-side {
-    width: 48%;
+    /* width: 48%;
     height: 210px;
     margin: 0 1%;
-    float: left;
+    float: left; */
 }
 }
 .card-side {
@@ -16616,6 +16590,23 @@ strong {
   float: left;
   bottom: 0;
   padding: 4% 7%;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
+  font-family: "Oxygen";
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.card-side-image-textsss {
+  width: 103%;
+  height: 40%;
+  position: absolute;
+  float: left;
+  bottom: 0;
+  padding: 8% 7%;
   display: flex;
   align-items: flex-end;
   background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
@@ -16701,14 +16692,6 @@ strong {
   font-size: 27px;
 }
 
-
-.section-title1 {
-  font-family: "Oxygen";
-  color: #333;
-  width: 98%;
-  margin: 10px 1% 0 1%;
-  font-weight: bold;
-}
 
 .section-title1 {
   font-family: "Oxygen";
@@ -16861,6 +16844,14 @@ strong {
   background: url(../images/icon-metre.svg);
   background-size: 25px 25px;
 }
+.icon-metreench{
+  width: 25px;
+  height: 25px;
+  margin: 0px 15px 6px 6px;
+  float: left;
+  background: url(../images/icon-metre.svg);
+  background-size: 25px 25px;
+}
 strong {
   font-weight: bold;
 }
@@ -16905,3 +16896,711 @@ strong {
 
 
 /* lotissement detials end here  */
+
+
+/* opportunities  */
+
+@media screen and (min-width: 1600px){
+#banner-page {
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    margin-top: 85px;
+}
+}
+
+#banner-page {
+  width: 100%;
+  height: 285px;
+  padding-top: 50px;
+  margin-top: 85px;
+  position: relative;
+  z-index: 100;
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  background: url(../images/ban_page.jpg);
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1600px){
+.page-container-large {
+    width: 1400px;
+    margin: auto;
+}
+}
+.banner-page-set {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+@media screen and (min-width: 1600px){
+.banner-home-text-medium {
+    font-size: 35px;
+    line-height: 37px;
+}
+}
+.banner-home-text-medium {
+  font-family: "Oxygen";
+  font-size: 35px;
+  line-height: 37px;
+  color: #FFF;
+  font-weight: bold;
+}
+@media screen and (min-width: 1600px){
+.banner-page-sub {
+    width: 43%;
+}
+}
+
+.button_ {
+  border-top: solid 1px rgba(255,255,255,0.2);
+}
+@media screen and (min-width: 1300px){
+.hide-tab-mobile {
+    display: block;
+}
+}
+.button-text {
+  font-family: "Oxygen";
+  font-size: 17px;
+  line-height: 20px;
+  font-style: italic;
+  color: #444;
+}
+.color3 {
+  color: #FFF;
+}
+.page-background-lightgrey {
+  background-color: #F8F8F8;
+  display: flex;
+}
+
+.content-filter {
+  width: 60%;
+  min-height: 100px;
+  margin: 0 auto 10px auto;
+  padding: 26px 3% 60px 3%;
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+@media screen and (min-width: 1300px){
+.formlabel, .formlabel1 {
+    width: 23%;
+    margin: 10px 2% 10px 0;
+}
+}
+
+.formlabel, .formlabel1 {
+  width: 23%;
+  margin: 10px 2% 10px 0;
+  float: left;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 30px;
+  color: #777;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+select.round {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+select, .round_ {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px #DDD;
+  /* border-radius: 4px; */
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 0 0.5em 0;
+  width: 100%;
+  color: #444;
+  text-transform: none;
+  font-family: "Oxygen";
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+option {
+  font-weight: bold;
+  display: block;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.button4 {
+  width: 100%;
+  padding: 10px 10% 16px 10%;
+  margin: 30px 0 0 0;
+  background-color: #FFF;
+  border: solid 1px #FFD24C;
+  border-radius: 26px;
+  font-family: "Oxygen";
+  font-size: 15px;
+  line-height: 16px;
+  color: #111;
+  font-weight: bold;
+}
+
+.button4:hover{ 
+  background-color: #FFD24C; 
+  border: solid 1px #FFD24C; 
+  cursor: pointer; 
+}
+
+@media screen and (min-width: 1300px){
+.page-splitterA {
+    width: 69%;
+    margin: 0;
+    float: left;
+}
+}
+@media screen and (min-width: 1300px){
+.page-splitterB {
+    width: 28%;
+    margin: 0;
+    margin-left: 2%;
+    float: left;
+}
+}
+a.Linkbreak {
+  text-decoration: none;
+  line-height: inherit;
+}
+@media screen and (min-width: 1600px){
+.card-news1 {
+    width: 31.3%;
+    height: 350px;
+    margin: 10px 1%;
+    padding-bottom: 0;
+}
+}
+.card-news1 {
+  width: 31.3%;
+  height: 350px;
+  /* position: relative; */
+  float: left;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 10px 1%;
+  background-color: #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+}
+.card-news-fill {
+  padding: 8px;
+  overflow: hidden;
+  /* background-color: #111; */
+}
+@media screen and (min-width: 1600px){
+.card-news-image1 {
+    height: 140px;
+}
+}
+.card-news-text-subtitle {
+  padding: 0 10%;
+  margin: 15px 0 15px 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #999;
+  font-weight: normal;
+}
+
+.card-news-text-title1 {
+  padding: 0 10%;
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 17px;
+  line-height: 22px;
+  color: #333;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+.card-news-link1 {
+  padding: 0 10%;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: #FF0940;
+}
+.icon-lieu1 {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px 0 0;
+  background: url(../images/icon-contact1.svg);
+  background-size: 20px 20px;
+  float: left;
+}
+
+@media screen and (min-width: 1300px){
+.page-splitterB {
+    width: 28%;
+    margin: 0;
+    margin-left: 2%;
+    float: left;
+}
+}
+@media screen and (min-width: 1600px){
+.card-side {
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    float: none;
+}
+}
+
+.card-side-caption {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  margin: 0 20px 8px 0;
+  background-color: #FF0940;
+  border-radius: 20px;
+}
+
+/* opportunities end here  */
+
+
+/* opportunities plus  */
+
+.page-background-lightgrey1 {
+  background-color: #F8F8F8;
+}
+@media screen and (min-width: 1300px){
+#top-set {
+    width: 100%;
+    height: 115px;
+    float: left;
+}
+}
+#top-set {
+  width: 100%;
+  height: 115px;
+  float: left;
+}
+
+@media screen and (min-width: 1300px){
+.page-splitterA {
+    width: 69%;
+    margin: 0;
+    float: left;
+}
+}
+.card-presentation {
+  width: 98%;
+  float: left;
+  margin: 5px 1% 20px 1%;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08);
+  color: #666;
+  transition: 0.1s;
+}
+@media screen and (min-width: 800px){
+.card-presentation-fill {
+    padding: 20px;
+}
+}
+.card-presentation-fill {
+  padding: 20px;
+}
+
+@media screen and (min-width: 800px){
+.card-presentation-fill {
+    padding: 20px;
+}
+}
+.card-presentation-fill {
+    padding: 20px;
+}
+@media screen and (min-width: 1300px){
+.title6 {
+    font-size: 20px;
+    line-height: 30px;
+    /* margin: 10px 0 15px 0; */
+}
+}
+.title6 {
+  font-family: "Oxygen";
+  color: #222;
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+}
+.title4 {
+  font-family: "Oxygen";
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+}
+@media screen and (min-width: 1300px){
+.title4 {
+    font-size: 26px;
+    line-height: 32px;
+    /* margin: 10px 0 15px 0; */
+}
+}
+@media screen and (min-width: 1300px){
+.title6 {
+    font-size: 20px;
+    line-height: 30px;
+    /* margin: 10px 0 15px 0; */
+}
+}
+.title6 {
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  color: #222;
+  font-weight: normal;
+  margin: 10px 0 15px 0;
+}
+
+
+.a2a_kit a {
+  cursor: pointer;
+  transition: none;
+}
+.a2a_default_style .a2a_counter img, .a2a_default_style .a2a_dd, .a2a_default_style .a2a_svg {
+  float: left;
+}
+
+.a2a_default_style .a2a_count, .a2a_default_style .a2a_svg, .a2a_floating_style .a2a_svg, .a2a_menu .a2a_svg, .a2a_vertical_style .a2a_count, .a2a_vertical_style .a2a_svg {
+  border-radius: 4px;
+}
+.a2a_kit .a2a_svg {
+  background-repeat: repeat;
+}
+.a2a_svg {
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  pointer-events: none;
+  width: 32px;
+}
+.a2a_default_style:not(.a2a_flex_style) a {
+  float: left;
+  line-height: 16px;
+  padding: 0 2px;
+}
+
+.a2a_kit a {
+  cursor: pointer;
+  transition: none;
+}
+
+.a2a_label {
+  position: absolute!important;
+  clip-path: polygon(0px 0px,0px 0px,0px 0px);
+  -webkit-clip-path: polygon(0px 0px,0px 0px,0px 0px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+
+
+@media screen and (min-width: 1300px){
+.page-splitterB {
+    width: 28%;
+    margin: 0;
+    margin-left: 2%;
+    float: left;
+}
+}
+@media screen and (min-width: 1300px){
+.content-side-red {
+    width: 80%;
+    padding: 30px 10% 40px 10%;
+    margin: 0 auto;
+}
+}
+.content-side-red {
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  margin: 0 auto;
+  padding: 30px 10% 40px 10%;
+  margin-top: 5px;
+  background: url(../images/background_proprietaire.jpg);
+  background-size: cover;
+  background-position: top center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ul-set {
+  padding: 0;
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+.ul-set li {
+  padding: 0;
+  margin: 10px 0 10px 60px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.color7 {
+  color: #FFF;
+}
+
+.icon-document {
+  width: 24px;
+  height: 24px;
+  margin: 12px 10px 0 0;
+  background: url(../images/icon-document.svg);
+  background-size: 24px 24px;
+  float: left;
+}
+.title8 {
+  font-family: "Oxygen";
+  color: #222;
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+}
+
+/* opportunities end here  */
+
+/* enchere */
+@media screen and (min-width: 1600px){
+.card-news2 {
+    width: 31.3%;
+    height: 445px;
+    margin: 10px 1%;
+    padding-bottom: 0;
+}
+}
+.card-news2 {
+  width: 31.3%;
+  height: 445px;
+  /* position: relative; */
+  float: left;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 10px 1%;
+  background-color: #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+}
+.card-news-fill {
+  padding: 8px;
+  overflow: hidden;
+  /* background-color: #111; */
+}
+@media screen and (min-width: 1600px){
+.card-news-image2 {
+    height: 210px;
+}
+}
+.card-news-image2 {
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 0 0;
+}
+.card-news-linkkkk {
+  padding: 10px 10%;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: #D6A000;
+  font-weight: bold;
+}
+.icon-lieu {
+  width: 24px;
+  height: 24px;
+  margin: 0px 10px 0 0;
+  background: url(../images/icon-contact.svg);
+  background-size: 24px 24px;
+  float: left;
+}
+.card-news-text-title2 {
+  padding: 0 10%;
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 19px;
+  line-height: 24px;
+  color: #333;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+.card-news-text-des {
+  padding: 0 10%;
+  margin: 7px 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+}
+.icon-calendar1 {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0px 10px 0 0;
+  background: url(../images/icon-calendar1.svg);
+  background-size: 20px 20px;
+}
+
+/* enchere end here  */
+
+/* enchere plus  */
+
+@media screen and (min-width: 1300px){
+.page-splitterC {
+    width: 67%;
+    margin: 0 0;
+    float: left;
+}
+}
+
+@media screen and (min-width: 1300px){
+.page-splitterD {
+    width: 31%;
+    margin: 0;
+    margin-left: 2%;
+    float: left;
+}
+}
+.content-form-titleench{
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 7% 10px 7%;
+  margin-top: 5px;
+  background-color: #F7F7F7;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Oxygen";
+  font-size: 24px;
+  line-height: 35px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+}
+.content-formench{
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 26px 8% 50px 8%;
+  background-color: #FFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+}
+.card-news-link {
+  padding: 0 10%;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: #D6A000;
+  font-weight: bold;
+}
+.card-side-image-textench {
+  width: 100.5%;
+  height: 40%;
+  position: absolute;
+  float: left;
+  bottom: 0;
+  padding: 8% 7%;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
+  font-family: "Oxygen";
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFF;
+  transition: 0.3s;
+}
+.card-side-image-textact {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  float: left;
+  bottom: 0;
+  padding: 8% 7%;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.9) 70%);
+  font-family: "Oxygen";
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFF;
+  transition: 0.3s;
+}
+.enchers{
+  height: 1010px !important;
+}
+.color6 {
+  color: #DBA400;
+}
+@media screen and (min-width: 1600px){
+.card-news {
+    width: 48%;
+    height: 525px;
+    margin: 10px 1%;
+    padding-bottom: 0;
+}
+}
+.card-news {
+  width: 48%;
+  height: 525px;
+  /* position: relative; */
+  float: left;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 10px 1%;
+  background-color: #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+}
+.card-news-text-title {
+  padding: 0 10%;
+  margin: 7px 0;
+  font-family: "Oxygen";
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+.card-news-image {
+  height: 300px;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+@media screen and (min-width: 1600px){
+.card-news-image {
+    height: 295px;
+}
+}
+/* enchere plus end here  */
+
+/* actualities plus  */
+
+.page-set {
+  width: 98%;
+  padding: 0 1%;
+  float: left;
+}
+.title7 {
+  font-family: "Oxygen";
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+}
+@media screen and (min-width: 1300px){
+.title7 {
+    font-size: 36px;
+    line-height: 40px;
+    /* margin: 10px 0 30px 0; */
+}
+}
+
+/* actualities plus end here  */
